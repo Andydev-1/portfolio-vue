@@ -12,7 +12,7 @@
             class="text-teal-500 animate-pulse"
             :stroke-width="2"
           />
-          <img src="src/assets/img/logo1.png" alt="logo.jpg" srcset="" class="rounded-md w-full">
+          <img src="@/assets/img/logo1.png" alt="logo" srcset="" class="rounded-md w-full">
         </div>
         
         <!-- Animated rings -->
