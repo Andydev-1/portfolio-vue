@@ -3,7 +3,9 @@
     <div class="w-full max-w-md bg-white/10 backdrop-blur-lg shadow-lg rounded-lg p-6">
       <!-- Logo -->
       <div class="flex justify-center">
-        <img src="@/assets/img/logo1.png" alt="Turbo Receipt Logo" class="w-20 h-20 rounded-full shadow-md bg-white">
+       <div class="w-23 h-23 rounded-full bg-gray-500 p-5">
+      <img src="@/assets/img/logo1.png" alt="Turbo Receipt Logo" class="w-13 h-13 rounded-md shadow-md bg-white">
+      </div>
       </div>
 
       <!-- Title -->

@@ -2,7 +2,9 @@
   <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-700 to-slate-900 text-white p-6">
     <!-- Logo -->
     <div class="flex flex-col items-center">
-      <img src="@/assets/img/logo1.png" alt="Turbo Receipt Logo" class="w-24 h-24 rounded-full shadow-md bg-white">
+      <div class="w-23 h-23 rounded-full bg-gray-500 p-5">
+      <img src="@/assets/img/logo1.png" alt="Turbo Receipt Logo" class="w-13 h-13 rounded-md shadow-md bg-white">
+      </div>
       <h1 class="text-3xl font-bold mt-4">Turbo Receipt</h1>
       <p class="text-gray-300 mt-2 text-center px-4">Manage your receipts efficiently and keep track of your transactions.</p>
     </div>
@@ -18,8 +20,9 @@
 
       <p class="text-center text-gray-300 text-sm">
         Don't have an account? 
-        <a href="/signup" class="text-teal-400 hover:underline">Sign up</a>
+        <a href="/signup"><span class="text-teal-400 hover:underline">Sign up</span></a>
       </p>
+      <p class="text-center text-teal-400 text-sm hover:underline">privacy policy</p>
     </div>
   </div>
 </template>
