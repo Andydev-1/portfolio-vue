@@ -75,7 +75,7 @@
       </div>
 
       <div class="col-end-4">
-        <img src=" /src/assets/img/smile4.png" alt="smile5" class="w-95 mr-10 mt-2 hidden md:block">
+        <img src=" @/assets/img/smile4.png" alt="smile5" class="w-95 mr-10 mt-2 hidden md:block">
       </div>
     </div>
   
@@ -154,10 +154,10 @@ Together, we make a difference.</p>
           </div>
         </div>
         <div class="grid grid-cols-2 gap-6">
-          <img src="/src/assets/img/mission1.webp" alt="Mission Image 1" class="w-full h-64 object-cover rounded-lg shadow-lg">
-          <img src="/src/assets/img/mission2.avif" alt="Mission Image 2" class="w-full h-64 object-cover rounded-lg shadow-lg mt-12">
-          <img src="/src/assets/img/mission3.avif" alt="Mission Image 3" class="w-full h-64 object-cover rounded-lg shadow-lg -mt-12">
-          <img src="/src/assets/img/mission4.jpg" alt="Mission Image 4" class="w-full h-64 object-cover rounded-lg shadow-lg">
+          <img src="@/assets/img/mission1.webp" alt="Mission Image 1" class="w-full h-64 object-cover rounded-lg shadow-lg">
+          <img src="@/assets/img/mission2.avif" alt="Mission Image 2" class="w-full h-64 object-cover rounded-lg shadow-lg mt-12">
+          <img src="@/assets/img/mission3.avif" alt="Mission Image 3" class="w-full h-64 object-cover rounded-lg shadow-lg -mt-12">
+          <img src="@/assets/img/mission4.jpg" alt="Mission Image 4" class="w-full h-64 object-cover rounded-lg shadow-lg">
         </div>
       </div>
     </div>
@@ -177,7 +177,7 @@ Together, we make a difference.</p>
         <!-- Education Support -->
         <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden transform transition-transform hover:scale-105">
           <div class="h-48 overflow-hidden">
-            <img src="/src/assets/img/edu1.jpg" alt="Education Support" class="w-full h-full object-cover">
+            <img src="@/assets/img/edu1.jpg" alt="Education Support" class="w-full h-full object-cover">
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">Education Support</h3>
@@ -188,7 +188,7 @@ Together, we make a difference.</p>
         <!-- Healthcare Access -->
         <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden transform transition-transform hover:scale-105">
           <div class="h-48 overflow-hidden">
-            <img src="/src/assets/img/edu2.avif" alt="Healthcare Access" class="w-full h-full object-cover">
+            <img src="@/assets/img/edu2.avif" alt="Healthcare Access" class="w-full h-full object-cover">
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">Healthcare Access</h3>
@@ -199,7 +199,7 @@ Together, we make a difference.</p>
         <!-- Community Development -->
         <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden transform transition-transform hover:scale-105">
           <div class="h-48 overflow-hidden">
-            <img src="/src/assets/img/edu3.jpg" alt="Community Development" class="w-full h-full object-cover">
+            <img src="@/assets/img/edu3.jpg" alt="Community Development" class="w-full h-full object-cover">
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">Community Development</h3>
@@ -231,7 +231,7 @@ Together, we make a difference.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6">
           <img 
-            src="/src/assets/img/founder.jpg" 
+            src="@/assets/img/founder.jpg" 
             alt="Founder" 
             class="w-full h-auto max-h-[600px] object-cover rounded-lg shadow-xl"
           >
@@ -506,7 +506,7 @@ Together, we make a difference.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <!-- About Section -->
         <div class="space-y-6">
-          <img src="/src/assets/img/logos.png" alt="logo" class="w-32">
+          <img src="@/assets/img/logos.png" alt="logo" class="w-32">
           <p class="text-gray-300">
             Empowering communities through compassion, education, and sustainable development. Together, we can make a difference.
           </p>
