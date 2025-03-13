@@ -3,7 +3,7 @@
     <nav class="text-white bg-gray-800 h-20 px-6 md:px-20 fixed top-0 left-0 right-0 z-50">
       <div class="flex justify-between items-center h-full">
         <div class="pt-3">
-          <img src="/src/assets/img/logos.png" alt="logo" class="w-30">
+          <img src="@/assets/img/logos.png" alt="logo" class="w-30">
         </div>
         
         <!-- Mobile Menu Button -->
