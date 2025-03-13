@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-neutral-700 bg-[url(/src/assets/img/bg3.jpg)] bg-center bg-cover bg-blend-multiply pt-20">
+  <div class="h-screen bg-neutral-700 bg-[url(@/assets/img/bg3.jpg)] bg-center bg-cover bg-blend-multiply pt-20">
     <nav class="text-white bg-gray-800 h-20 px-6 md:px-20 fixed top-0 left-0 right-0 z-50">
       <div class="flex justify-between items-center h-full">
         <div class="pt-3">
@@ -124,7 +124,7 @@
   </div>
   <!--the about section-->
   <section class="bg-white w-full py-20">
-    <div class="w-full h-40 bg-green-200 bg-[url(/src/assets/img/blur.jpg)] bg-center bg-cover bg-blend-multiply mb-16 -mt-20"  id="about"></div>
+    <div class="w-full h-40 bg-green-200 bg-[url(@/assets/img/blur.jpg)] bg-center bg-cover bg-blend-multiply mb-16 -mt-20"  id="about"></div>
     <div class="container mx-auto px-8">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6">
