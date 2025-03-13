@@ -1,18 +1,18 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
-import signinView from '../views/signinView.vue';
-import signupView from '../views/signupView.vue';
-import heroView from '../views/heroView.vue';
-import SplashView from '../views/SplashView.vue';
+
+// Import your page components
+import Home from '@/views/home.vue';
+import Projects from '@/views/Projects.vue';
+
 const routes = [
-    { path: '/signin', component: signinView },
-    { path: '/signup', component: signupView },
-    { path: '/hero', component: heroView },
-    { path: '/', component: SplashView }
+    { path: '/', component: Home },
+    { path: '/projects', component: Projects },
 ];
 
 const router = createRouter({
     history: createWebHistory(),
-    routes
+    routes,
 });
 
 export default router;
