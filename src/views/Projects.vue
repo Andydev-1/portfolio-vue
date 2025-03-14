@@ -312,7 +312,7 @@ const projects = [
     title: 'School Support Project',
     description: 'Support and developed school to provide quality education for underprivileged children in rural areas.',
     category: 'Education',
-    image: '/src/assets/img/edu4.jpg',
+    image: '/src/assets/img/img3.jpg',
     progress: 75,
     goal: 50000
   },

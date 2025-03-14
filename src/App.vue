@@ -8,7 +8,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/Projects">Projects</router-link>
     </nav>
-    <router-view></router-view>
+    
   </div>
 
 </template>
