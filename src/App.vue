@@ -2,7 +2,6 @@
 <template>
 
   <router-view />
-
   <div>
     <nav>
       <router-link to="/">Home</router-link>
