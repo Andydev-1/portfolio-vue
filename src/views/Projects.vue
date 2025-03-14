@@ -2,7 +2,7 @@
       <nav class="text-white bg-gray-800 h-20 px-6 md:px-20 fixed top-0 left-0 right-0 z-50">
       <div class="flex justify-between items-center h-full">
         <div class="pt-3">
-          <img src="/src/assets/img/logos.png" alt="logo" class="w-30">
+          <img src="/public/img/logos.png" alt="logo" class="w-30">
         </div>
         
         <!-- Mobile Menu Button -->
@@ -208,7 +208,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <!-- About Section -->
         <div class="space-y-6">
-          <img src="/src/assets/img/logos.png" alt="logo" class="w-32">
+          <img src="/public/img/logos.png" alt="logo" class="w-32">
           <p class="text-gray-300">
             Empowering communities through compassion, education, and sustainable development. Together, we can make a difference.
           </p>
@@ -312,7 +312,7 @@ const projects = [
     title: 'School Support Project',
     description: 'Support and developed school to provide quality education for underprivileged children in rural areas.',
     category: 'Education',
-    image: '/src/assets/img/img3.jpg',
+    image: '/public/img/img3.jpg',
     progress: 75,
     goal: 50000
   },
@@ -321,7 +321,7 @@ const projects = [
     title: 'Medical Outreach Program',
     description: 'Providing essential healthcare services and medical supplies to remote communities.',
     category: 'Healthcare',
-    image: '/src/assets/img/edu2.avif',
+    image: '/public/img/edu2.avif',
     progress: 60,
     goal: 30000
   },
@@ -330,7 +330,7 @@ const projects = [
     title: 'Community Garden Initiative',
     description: 'Creating sustainable food sources through community gardens and agricultural training.',
     category: 'Community',
-    image: '/src/assets/img/edu3.jpg',
+    image: '/public/img/edu3.jpg',
     progress: 40,
     goal: 15000
   },
@@ -339,7 +339,7 @@ const projects = [
     title: 'Clean Water Project',
     description: 'Installing water purification systems in villages to provide clean drinking water.',
     category: 'Environment',
-    image: '/src/assets/img/mission6.avif',
+    image: '/public/img/mission6.avif',
     progress: 85,
     goal: 25000
   },
@@ -348,7 +348,7 @@ const projects = [
     title: 'Youth Skills Training',
     description: 'Empowering youth through vocational training and entrepreneurship programs.',
     category: 'Education',
-    image: '/src/assets/img/mission2.avif',
+    image: '/public/img/mission2.avif',
     progress: 50,
     goal: 20000
   },
@@ -357,7 +357,7 @@ const projects = [
     title: 'Elder Care Program',
     description: 'Supporting elderly community members with healthcare and social services.',
     category: 'Healthcare',
-    image: '/src/assets/img/mission5.webp',
+    image: '/public/img/mission5.webp',
     progress: 30,
     goal: 35000
   }
