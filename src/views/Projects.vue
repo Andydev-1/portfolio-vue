@@ -369,4 +369,7 @@ const filteredProjects = computed(() => {
   }
   return projects.filter(project => project.category === selectedCategory.value);
 });
+const isMenuOpen = ref(false);
+console.log('App.vue is loading');
+
 </script>
