@@ -259,7 +259,7 @@ Together, we make a difference.</p>
         <div class="space-y-8">
           <div>
             <h3 class="text-3xl font-bold text-gray-800 mb-2">Sir Lanre Sofunde Taylor</h3>
-            <p class="text-orange-500 font-semibold mb-6">Founder & Executive Director</p>
+            <p class="text-orange-500 font-semibold mb-6">Founder & Executive Director of LANRE TAYLOR CHARITY FOUNDATION also as Sir Larry Charity Foundation</p>
             <p class="text-gray-600 leading-relaxed mb-6">
               With over 20 years of experience in humanitarian work, Sir Larry has dedicated his life to making a difference in communities worldwide. His vision of creating sustainable change through education and empowerment has touched thousands of lives.
             </p>
