@@ -311,7 +311,7 @@ const completedProjects = ref([
     title: "Sir Larry Charity Foundation",
     description:
       "A non-profit organization website supporting charity initiatives and donations, with a clean and accessible design.",
-    image: "/src/assets/img/project1.png",
+    image: "@/assets/img/project1.png",
     technologies: ["Vue.js", "Tailwind"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -321,7 +321,7 @@ const completedProjects = ref([
     title: "Oyinthemua Beauty Website",
     description:
       "A beauty and makeup website for full glam and soft glam, showcasing services, portfolio, and booking features.",
-    image: "/src/assets/img/project3.png",
+    image: "@/assets/img/project3.png",
     technologies: ["Vue.js", "Tailwind"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -331,7 +331,7 @@ const completedProjects = ref([
     title: "Land T Cleaning Services",
     description:
       "A professional cleaning service website with online booking, service listings, and customer testimonials.",
-    image: "/src/assets/img/project4.png",
+    image: "@/assets/img/project4.png",
     technologies: ["Js", "Bootstrap"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -344,7 +344,7 @@ const inProgressProjects = ref([
     title: "Turbo Receipt (Web App)",
     description:
       "A modern web app for generating, storing, and sharing digital receipts for businesses and individuals.",
-    image: "/src/assets/img/project2.png",
+    image: "@/assets/img/project2.png",
     technologies: ["Vue.js", "Tailwind", "Laravel"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
@@ -354,7 +354,7 @@ const inProgressProjects = ref([
     title: "Legacy Cars (Ecommerce)",
     description:
       "An e-commerce platform for car sales, featuring inventory management, user accounts, and secure payments.",
-    image: "/src/assets/img/project5.png",
+    image: "@/assets/img/project5.png",
     technologies: ["Vue.js", "Tailwind", "Supabase API"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
@@ -364,7 +364,7 @@ const inProgressProjects = ref([
     title: "Smart Support Chatbot",
     description:
       "An AI-powered chatbot for customer support, FAQs, and instant responses, built with Vue.js and OpenAI API integration.",
-    image: "/src/assets/img/project3.png",
+    image: "@/assets/img/project3.png",
     technologies: ["Vue.js", "OpenAI API"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
