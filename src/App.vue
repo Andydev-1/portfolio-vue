@@ -1,13 +1,13 @@
-<script setup>
-import { ref } from 'vue';
+<template>
+  <router-view />
+  <FloatingMenu />
+</template>
 
-const count = ref(0);
+<script setup>
+import FloatingMenu from "./components/FloatingMenu.vue";
+// No additional logic needed - router-view handles all routing
 </script>
 
-<template>
-  <header>
-    <h1>Hello World</h1>
-    <button @click="count++" class="bg-blue-500 text-white p-2 rounded-md">Click me</button>
-    <p>Count is {{ count }}</p>
-  </header>
-</template>
+<style scoped>
+/* Global styles can go here if needed */
+</style>
