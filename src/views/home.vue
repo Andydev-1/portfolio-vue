@@ -118,8 +118,8 @@
         <div
           class="md:w-70 h-80 bg-sky-900 pt-6 pl-8 md:mt-25 mt-10 rounded-3xl md:rounded-full"
         >
-          <img src="@/assets/img/face.png" class="w-55" />
-          <div class="flex mt-5 ml-3 gap-1">
+          <img src="@/assets/img/face.png" class="w-55 ml-4 md:ml-0" />
+          <div class="flex mt-5 ml-5 md:ml-3 gap-1">
             <div class="bg-neutral-800 w-12 h-12 rounded-full p-3.5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

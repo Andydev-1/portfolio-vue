@@ -3,9 +3,9 @@
     class="bg-gradient-to-b from-neutral-900 to-neutral-800 min-h-screen transition-all duration-300"
   >
     <!-- Navigation Section -->
-    <div class="mx-40">
+    <div class="mx-0 md:mx-40 px-4 md:px-0">
       <nav class="transition-colors duration-300">
-        <div class="flex gap-90 pt-6">
+        <div class="flex justify-between md:gap-90 pt-6 mr-2 md:mr-30">
           <div
             class="flex-start size-15 rounded-full bg-radial-[at_25%_25%] from-neutral-700 to-neutral-800 to-75% cursor-pointer transition-all duration-300 hover:scale-110"
             @click="toggleTheme"
@@ -67,22 +67,47 @@
               </svg>
             </div>
           </div>
+          <!-- Desktop Nav -->
           <div
-            class="flex-end bg-neutral-800 w-80 rounded-full px-17 md:ml-15 ml-2 transition-all duration-300"
+            class="hidden md:flex items-center bg-neutral-800 rounded-full px-8 py-2 transition-all duration-300 shadow-md border border-neutral-700"
           >
-            <div class="flex gap-20">
+            <nav class="flex gap-8 w-full justify-center">
               <router-link
                 to="/"
-                class="flex mt-1.5 cursor-pointer hover:text-gray-300 transition-transform duration-300 hover:translate-x-1"
+                class="flex items-center px-4 py-2 rounded-full font-medium text-neutral-200 hover:text-emerald-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                :class="{ 'text-emerald-400': $route.path === '/' }"
               >
-                <p class="pt-3">Home</p>
+                Home
               </router-link>
-              <div
-                class="flex mt-1.5 cursor-pointer text-emerald-400 transition-transform duration-300"
+              <router-link
+                to="/blog"
+                class="flex items-center px-4 py-2 rounded-full font-medium text-neutral-200 hover:text-emerald-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                :class="{ 'text-emerald-400': $route.path.startsWith('/blog') }"
               >
-                <p class="pt-3">Blog</p>
-              </div>
-            </div>
+                Blog
+              </router-link>
+            </nav>
+          </div>
+          <!-- Mobile Nav -->
+          <div
+            class="flex md:hidden items-center bg-neutral-800 rounded-full px-4 py-2 transition-all duration-300 shadow-md border border-neutral-700"
+          >
+            <nav class="flex gap-4 w-full justify-center">
+              <router-link
+                to="/"
+                class="flex items-center px-2 py-1 rounded-full font-medium text-neutral-200 hover:text-emerald-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 text-sm"
+                :class="{ 'text-emerald-400': $route.path === '/' }"
+              >
+                Home
+              </router-link>
+              <router-link
+                to="/blog"
+                class="flex items-center px-2 py-1 rounded-full font-medium text-neutral-200 hover:text-emerald-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 text-sm"
+                :class="{ 'text-emerald-400': $route.path.startsWith('/blog') }"
+              >
+                Blog
+              </router-link>
+            </nav>
           </div>
         </div>
       </nav>
