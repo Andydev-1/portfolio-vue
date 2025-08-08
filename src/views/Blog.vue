@@ -68,7 +68,7 @@
             </div>
           </div>
           <div
-            class="flex-end bg-neutral-800 w-80 rounded-full px-17 ml-15 transition-all duration-300"
+            class="flex-end bg-neutral-800 w-80 rounded-full px-17 md:ml-15 ml-2 transition-all duration-300"
           >
             <div class="flex gap-20">
               <router-link
