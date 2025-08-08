@@ -305,13 +305,19 @@
 <script setup>
 import { ref } from "vue";
 
+import project1 from "@/assets/img/project1.png";
+import project2 from "@/assets/img/project3.png";
+import project3 from "@/assets/img/project4.png";
+import project4 from "@/assets/img/project2.png";
+import project5 from "@/assets/img/project5.png";
+
 const completedProjects = ref([
   {
     id: 1,
     title: "Sir Larry Charity Foundation",
     description:
       "A non-profit organization website supporting charity initiatives and donations, with a clean and accessible design.",
-    image: "@/assets/img/project1.png",
+    image: "project1",
     technologies: ["Vue.js", "Tailwind"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -321,7 +327,7 @@ const completedProjects = ref([
     title: "Oyinthemua Beauty Website",
     description:
       "A beauty and makeup website for full glam and soft glam, showcasing services, portfolio, and booking features.",
-    image: "@/assets/img/project3.png",
+    image: "project3",
     technologies: ["Vue.js", "Tailwind"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -331,7 +337,7 @@ const completedProjects = ref([
     title: "Land T Cleaning Services",
     description:
       "A professional cleaning service website with online booking, service listings, and customer testimonials.",
-    image: "@/assets/img/project4.png",
+    image: "project4",
     technologies: ["Js", "Bootstrap"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
@@ -344,7 +350,7 @@ const inProgressProjects = ref([
     title: "Turbo Receipt (Web App)",
     description:
       "A modern web app for generating, storing, and sharing digital receipts for businesses and individuals.",
-    image: "@/assets/img/project2.png",
+    image: "project2",
     technologies: ["Vue.js", "Tailwind", "Laravel"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
@@ -354,7 +360,7 @@ const inProgressProjects = ref([
     title: "Legacy Cars (Ecommerce)",
     description:
       "An e-commerce platform for car sales, featuring inventory management, user accounts, and secure payments.",
-    image: "@/assets/img/project5.png",
+    image: "project5",
     technologies: ["Vue.js", "Tailwind", "Supabase API"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
@@ -364,7 +370,7 @@ const inProgressProjects = ref([
     title: "Smart Support Chatbot",
     description:
       "An AI-powered chatbot for customer support, FAQs, and instant responses, built with Vue.js and OpenAI API integration.",
-    image: "@/assets/img/project3.png",
+    image: "project3",
     technologies: ["Vue.js", "OpenAI API"],
     liveUrl: null,
     githubUrl: "https://github.com/example",
