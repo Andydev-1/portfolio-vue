@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'Bricolage Grotesque';
   font-style: normal;
@@ -12,6 +13,11 @@
 @theme {
   --font-bricolage: 'Bricolage Grotesque', sans-serif !important;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+>>>>>>> f73cf9e4394cdd5da92d32a8ab48aa0eee2bd59c
 
 #app {
   margin: 0 auto;
@@ -23,6 +29,7 @@
   scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 /* Light Mode Styles */
 .light {
   --bg-primary: #ffffff;
@@ -185,3 +192,16 @@ body {
 .dark .bg-radial-\[at_25%_25%\] { background: radial-gradient(circle at 25% 25%, #475569, #334155 75%); }
 
 a, .green { text-decoration: none; transition: 0.4s; padding: 3px; }
+=======
+@theme {
+  --font-poppins: 'Poppins';
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  padding: 3px;
+}
+>>>>>>> f73cf9e4394cdd5da92d32a8ab48aa0eee2bd59c
